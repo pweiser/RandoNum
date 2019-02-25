@@ -8,7 +8,7 @@ class Die (){
 		}
 
 		public rollDie(){
-			return rando.nextInt(6); 
+			return rando.nextInt(6)+1; 
 		}
 
 	}
