@@ -1,11 +1,11 @@
 import java.util.Random;
 
 class rando{
-    public void main(){
+    public static void main(String[] argv){
 	Random rand = new Random();
 
 	int n = rand.nextInt();
 
-	system.out.println("Here is a random number: " + n);
+	System.out.println("Here is a random number: " + n);
     }
 }
